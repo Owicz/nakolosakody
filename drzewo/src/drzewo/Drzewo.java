@@ -18,10 +18,12 @@ public class Drzewo {
        Pair<String> pl= new Pair<>();
        pl.setFirst("trala");
        pl.setSecond("lala");
-       System.out.println(pl);
+//       System.out.println(pl);
        Pair<Integer> pl2= new Pair<>();
        pl2.setFirst(3);
        pl2.setSecond(18);
        System.out.println(pl2);
+       node<Integer> tree = new node<>(99);
+       
     }
 }
